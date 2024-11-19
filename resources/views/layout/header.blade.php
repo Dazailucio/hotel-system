@@ -1,6 +1,6 @@
 <nav class="navbar navbar-light">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="{{ route('index')}}">
             <img src="{{ asset('imagemdoprojeto.png') }}" alt="Logo Quinta do Ypuã">
         </a>
         <form class="d-flex" role="search">

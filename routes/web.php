@@ -7,4 +7,7 @@ Route::get('/teste', function () {
 });
 
 Route::get('/', [App\Http\Controllers\HotelController::class, 'index'])->name('index');
-Route::get('/cadastro', [App\Http\Controllers\HotelController::class, 'cadastro'])->name('cadastro');
+
+Route::prefix('cliente')->group(function () {
+    Route::get('/cadastro', [App\Http\Controllers\ClienteController::class, 'cadastro'])->name('cadastro');
+});

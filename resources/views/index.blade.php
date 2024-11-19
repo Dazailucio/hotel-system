@@ -78,7 +78,7 @@
         </tr>
     </table>
 
-    <a href="{{ action('App\Http\Controllers\HotelController@cadastro') }}" type="button" class="btn-cadastro">Cadastre o Cliente Aqui</a>
+    <a href="{{ route('cadastro') }}" type="button" class="btn-cadastro">Cadastre o Cliente Aqui</a>
     <div class="action-buttons">
         <div class="action-button">
             <a href="">
